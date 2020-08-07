@@ -34,10 +34,10 @@
             this.toolStripAddressBar = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripButtonBack = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonForward = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonAddTab = new System.Windows.Forms.ToolStripButton();
             this.BrowserTabs = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.toolStripButtonAddTab = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.BrowserTabs.SuspendLayout();
             this.SuspendLayout();
@@ -93,6 +93,16 @@
             this.toolStripButtonForward.Text = "->";
             this.toolStripButtonForward.Click += new System.EventHandler(this.toolStripButtonForward_Click);
             // 
+            // toolStripButtonAddTab
+            // 
+            this.toolStripButtonAddTab.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButtonAddTab.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonAddTab.Image")));
+            this.toolStripButtonAddTab.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonAddTab.Name = "toolStripButtonAddTab";
+            this.toolStripButtonAddTab.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButtonAddTab.Text = "+";
+            this.toolStripButtonAddTab.Click += new System.EventHandler(this.toolStripButtonAddTab_Click);
+            // 
             // BrowserTabs
             // 
             this.BrowserTabs.Controls.Add(this.tabPage1);
@@ -124,16 +134,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "+";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // toolStripButtonAddTab
-            // 
-            this.toolStripButtonAddTab.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButtonAddTab.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonAddTab.Image")));
-            this.toolStripButtonAddTab.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonAddTab.Name = "toolStripButtonAddTab";
-            this.toolStripButtonAddTab.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButtonAddTab.Text = "+";
-            this.toolStripButtonAddTab.Click += new System.EventHandler(this.toolStripButtonAddTab_Click);
             // 
             // Browser
             // 

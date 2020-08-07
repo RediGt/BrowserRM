@@ -108,7 +108,6 @@ namespace BrowserRM
             browser.AddressChanged += Browser_AddressChanged;
             browser.TitleChanged += Browser_TitleChanged;
             newTabPage.Controls.Add(browser);
-
         }
 
         private void Browser_TitleChanged(object sender, TitleChangedEventArgs e)
